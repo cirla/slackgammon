@@ -1,0 +1,8 @@
+aiodns==1.1.1
+aiohttp==1.1.6
+async-timeout==1.1.0
+cchardet==1.1.1
+chardet==2.3.0
+multidict==2.1.4
+pycares==2.1.1
+yarl==0.7.1
