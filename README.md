@@ -10,13 +10,13 @@ Slack adapter for GNU Backgammon
   The endpoint URL should be the location where you will be hosting the endpoint, e.g. https://example.com/slackgammon.
 * Create a Slack [incoming webhooks integration](https://api.slack.com/incoming-webhooks) and note the endpoint URL.
 * Run `slackgammon.py` with the required Slack info and desired configuration, e.g.
-  ```shell
+```shell
   python3.5 slackgammon.py --host "localhost" \
                            --port $SLACKGAMMON_PORT \
                            --slash-token $SLACKGAMMON_SLASH_TOKEN \
                            --webhook-url $SLACKGAMMON_WEBHOOK_URL \
                            --max-games 4 \
                            --gnubg-path $GNUBG_PATH
-  ```
+```
 * Type `/slackgammon help` in Slack and enjoy!
 
